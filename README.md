@@ -3,7 +3,7 @@
 ## Introduction
 SwiftUI's ScrollView does not support pull down to refresh, this is a library that adds refresh control to it.
 
-<img src="/ScreenRecording/ScreenRecording.gif" width="320" height="571" />
+<img src="https://github.com/YuantongL/SwiftUI-PullToRefresh/blob/main/ScreenRecording/ScreenRecording.gif?raw=true" width="320" height="571" />
 
 ## Install
 - Cocoapod. `pod SwiftUI-PullToRefresh`
