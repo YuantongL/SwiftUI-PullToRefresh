@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440EC69025ABDAF0002462F6 /* SwiftUI_PullToRefreshExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440EC68F25ABDAF0002462F6 /* SwiftUI_PullToRefreshExampleAppApp.swift */; };
+		440EC69225ABDAF0002462F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440EC69125ABDAF0002462F6 /* ContentView.swift */; };
+		440EC69425ABDAF4002462F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440EC69325ABDAF4002462F6 /* Assets.xcassets */; };
+		440EC69725ABDAF4002462F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440EC69625ABDAF4002462F6 /* Preview Assets.xcassets */; };
+		6F39F65C244E14C55A9DAD6A /* Pods_SwiftUI_PullToRefreshExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5881B0E8169ED2B09E3FAE33 /* Pods_SwiftUI_PullToRefreshExampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E62DA9DD3CCE91843D29054 /* Pods-SwiftUI-PullToRefreshExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-PullToRefreshExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-PullToRefreshExampleApp/Pods-SwiftUI-PullToRefreshExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		440EC68C25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-PullToRefreshExampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440EC68F25ABDAF0002462F6 /* SwiftUI_PullToRefreshExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PullToRefreshExampleAppApp.swift; sourceTree = "<group>"; };
+		440EC69125ABDAF0002462F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		440EC69325ABDAF4002462F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440EC69625ABDAF4002462F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		440EC69825ABDAF4002462F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5881B0E8169ED2B09E3FAE33 /* Pods_SwiftUI_PullToRefreshExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_PullToRefreshExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8721220EE930547088221F /* Pods-SwiftUI-PullToRefreshExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-PullToRefreshExampleApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-PullToRefreshExampleApp/Pods-SwiftUI-PullToRefreshExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440EC68925ABDAF0002462F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F39F65C244E14C55A9DAD6A /* Pods_SwiftUI_PullToRefreshExampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21236373A978E29D97DB7FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5881B0E8169ED2B09E3FAE33 /* Pods_SwiftUI_PullToRefreshExampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440EC68325ABDAF0002462F6 = {
+			isa = PBXGroup;
+			children = (
+				440EC68E25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp */,
+				440EC68D25ABDAF0002462F6 /* Products */,
+				AA40E6A37C2E0C72598F901B /* Pods */,
+				21236373A978E29D97DB7FE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		440EC68D25ABDAF0002462F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440EC68C25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440EC68E25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				440EC68F25ABDAF0002462F6 /* SwiftUI_PullToRefreshExampleAppApp.swift */,
+				440EC69125ABDAF0002462F6 /* ContentView.swift */,
+				440EC69325ABDAF4002462F6 /* Assets.xcassets */,
+				440EC69825ABDAF4002462F6 /* Info.plist */,
+				440EC69525ABDAF4002462F6 /* Preview Content */,
+			);
+			path = "SwiftUI-PullToRefreshExampleApp";
+			sourceTree = "<group>";
+		};
+		440EC69525ABDAF4002462F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				440EC69625ABDAF4002462F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA40E6A37C2E0C72598F901B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E62DA9DD3CCE91843D29054 /* Pods-SwiftUI-PullToRefreshExampleApp.debug.xcconfig */,
+				6E8721220EE930547088221F /* Pods-SwiftUI-PullToRefreshExampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440EC68B25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440EC69B25ABDAF4002462F6 /* Build configuration list for PBXNativeTarget "SwiftUI-PullToRefreshExampleApp" */;
+			buildPhases = (
+				835708F663F3EA1F5D0E66B2 /* [CP] Check Pods Manifest.lock */,
+				440EC68825ABDAF0002462F6 /* Sources */,
+				440EC68925ABDAF0002462F6 /* Frameworks */,
+				440EC68A25ABDAF0002462F6 /* Resources */,
+				C6436AC3DBBB47DCD4655B0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-PullToRefreshExampleApp";
+			productName = "SwiftUI-PullToRefreshExampleApp";
+			productReference = 440EC68C25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440EC68425ABDAF0002462F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					440EC68B25ABDAF0002462F6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 440EC68725ABDAF0002462F6 /* Build configuration list for PBXProject "SwiftUI-PullToRefreshExampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440EC68325ABDAF0002462F6;
+			productRefGroup = 440EC68D25ABDAF0002462F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440EC68B25ABDAF0002462F6 /* SwiftUI-PullToRefreshExampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440EC68A25ABDAF0002462F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440EC69725ABDAF4002462F6 /* Preview Assets.xcassets in Resources */,
+				440EC69425ABDAF4002462F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		835708F663F3EA1F5D0E66B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-PullToRefreshExampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6436AC3DBBB47DCD4655B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-PullToRefreshExampleApp/Pods-SwiftUI-PullToRefreshExampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-PullToRefreshExampleApp/Pods-SwiftUI-PullToRefreshExampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-PullToRefreshExampleApp/Pods-SwiftUI-PullToRefreshExampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440EC68825ABDAF0002462F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440EC69225ABDAF0002462F6 /* ContentView.swift in Sources */,
+				440EC69025ABDAF0002462F6 /* SwiftUI_PullToRefreshExampleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		440EC69925ABDAF4002462F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		440EC69A25ABDAF4002462F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440EC69C25ABDAF4002462F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E62DA9DD3CCE91843D29054 /* Pods-SwiftUI-PullToRefreshExampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-PullToRefreshExampleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-PullToRefreshExampleApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LYT.SwiftUI-PullToRefreshExampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		440EC69D25ABDAF4002462F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8721220EE930547088221F /* Pods-SwiftUI-PullToRefreshExampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-PullToRefreshExampleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-PullToRefreshExampleApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LYT.SwiftUI-PullToRefreshExampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440EC68725ABDAF0002462F6 /* Build configuration list for PBXProject "SwiftUI-PullToRefreshExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440EC69925ABDAF4002462F6 /* Debug */,
+				440EC69A25ABDAF4002462F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440EC69B25ABDAF4002462F6 /* Build configuration list for PBXNativeTarget "SwiftUI-PullToRefreshExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440EC69C25ABDAF4002462F6 /* Debug */,
+				440EC69D25ABDAF4002462F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440EC68425ABDAF0002462F6 /* Project object */;
+}

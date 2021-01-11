@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUI-PullToRefresh (1.0)
+
+DEPENDENCIES:
+  - SwiftUI-PullToRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftUI-PullToRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftUI-PullToRefresh: c97463152a7e4d841dcf52eb6e46ed6de7acde75
+
+PODFILE CHECKSUM: a0d1194ba7c5b195f7e04719b0d14ef540fd8b6e
+
+COCOAPODS: 1.10.0

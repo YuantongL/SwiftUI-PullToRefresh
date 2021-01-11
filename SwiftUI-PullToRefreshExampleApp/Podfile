@@ -1,0 +1,7 @@
+platform :ios, '14.0'
+inhibit_all_warnings!
+
+target 'SwiftUI-PullToRefreshExampleApp' do
+    use_frameworks!
+    pod 'SwiftUI-PullToRefresh', :path => '../'
+end
